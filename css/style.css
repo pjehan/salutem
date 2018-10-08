@@ -342,6 +342,7 @@ footer.main-footer table.opening-hours tr td.hours {
     align-items: center;
     justify-content: center;
     flex: 1;
+    padding: 1em 0;
     color: white;
 }
 
