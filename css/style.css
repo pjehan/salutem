@@ -10,6 +10,10 @@ p {
     margin-bottom: 1em;
 }
 
+svg {
+    height: 1em;
+}
+
 form input,
 form textarea,
 form select {
@@ -73,6 +77,7 @@ form select {
 .header-top .social-networks a {
     margin-right: 1em;
     color: white;
+    text-decoration: none;
 }
 
 .header-top .contact-infos ul {
@@ -82,7 +87,10 @@ form select {
 }
 
 .header-top .contact-infos ul li {
+    display: flex;
+    align-items: center;
     margin-right: 1em;
+    gap: 1em;
 }
 
 .header-top .contact-infos ul li a {
@@ -113,8 +121,7 @@ form select {
     color: crimson;
 }
 
-.header-middle .logo i.fa {
-    font-size: 1.5em;
+.header-middle .logo svg {
     margin-right: 0.2em;
 }
 
